@@ -1,12 +1,7 @@
 import React from "react"
 
 const Hero = ({ children, hero }) => {
-	return (
-		<header className={hero}>
-			<p>Header</p>
-			{children}
-		</header>
-	)
+	return <header className={hero}>{children}</header>
 }
 
 Hero.defaultProps = {
